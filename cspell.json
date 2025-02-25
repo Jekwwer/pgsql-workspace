@@ -1,0 +1,23 @@
+{
+  "ignorePaths": [
+    "*.json",
+    "*.svg",
+    "*.yaml",
+    "*.yml",
+    ".editorconfig",
+    ".gitignore",
+    ".prettierrc",
+    ".releaserc.js",
+    ".sqlfluff"
+  ],
+  "language": "en",
+  "useGitignore": true,
+  "version": "0.2",
+  "words": [
+    "Evgenii",
+    "Jekwwer",
+    "pgcli",
+    "Shiliaev",
+    "sqlfluff"
+  ]
+}
