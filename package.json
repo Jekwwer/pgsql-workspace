@@ -1,0 +1,47 @@
+{
+  "name": "jekwwer-pgsql-workspace",
+  "version": "0.0.0-dev",
+  "description": "A minimal template for PostgreSQL projects with a ready-to-use devcontainer, VS Code settings, and essential repo files.",
+  "keywords": [
+    "devcontainer",
+    "development-environment",
+    "github",
+    "postgresql",
+    "project-template",
+    "sql",
+    "template",
+    "vscode",
+    "workspace"
+  ],
+  "homepage": "https://github.com/Jekwwer/pgsql-workspace#readme",
+  "bugs": {
+    "url": "https://github.com/Jekwwer/pgsql-workspace/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekwwer/pgsql-workspace.git"
+  },
+  "license": "MIT",
+  "author": "Jekwwer",
+  "scripts": {
+    "spell:check": "cspell . --gitignore --cache",
+    "prettier:check": "prettier --check --config .prettierrc .",
+    "prettier:write": "prettier --write --config .prettierrc .",
+    "sqlfluff:check": "sqlfluff lint",
+    "sqlfluff:write": "sqlfluff fix",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^7.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "conventional-changelog": "^6.0.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "cspell": "^8.17.3",
+    "prettier": "^3.5.2",
+    "semantic-release": "^24.2.3"
+  }
+}
