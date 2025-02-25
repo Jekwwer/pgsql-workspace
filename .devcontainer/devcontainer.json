@@ -1,0 +1,65 @@
+{
+  "name": "jekwwer/pgsql-workspace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "features": {
+    "docker-in-docker": "latest",
+    "ghcr.io/devcontainers/features/python:1.7.0": {
+      "installTools": true
+    },
+    "ghcr.io/devcontainers/features/node:1.6.1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "./scripts/setup.sh",
+  "forwardPorts": [
+    5432
+  ],
+  "portsAttributes": {
+    "5432": {
+      "label": "postgresql-server",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cweijan.vscode-postgresql-client2",
+        "editorConfig.editorConfig",
+        "esbenp.prettier-vscode",
+        "dorzey.vscode-sqlfluff",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "ms-vscode-remote.remote-containers",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "[markdown]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[sql]": {
+          "editor.defaultFormatter": "dorzey.vscode-sqlfluff",
+          "editor.rulers": [
+            120
+          ]
+        },
+        "database-client.telemetry.usesOnlineServices": false,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+          88
+        ],
+        "files.autoSave": "onFocusChange",
+        "files.autoSaveWhenNoErrors": true,
+        "npm.packageManager": "npm",
+        "prettier.configPath": "./.prettierrc",
+        "prettier.prettierPath": "./node_modules/prettier",
+        "sqlfluff.config": "./.sqlfluff",
+        "sqlfluff.executablePath": "sqlfluff"
+      }
+    }
+  }
+}
