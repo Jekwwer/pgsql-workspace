@@ -18,8 +18,9 @@
     "Jekwwer",
     "pgcli",
     "pgsql",
+    "releaserc",
     "Shiliaev",
-    "styleguide",
-    "sqlfluff"
+    "sqlfluff",
+    "styleguide"
   ]
 }
