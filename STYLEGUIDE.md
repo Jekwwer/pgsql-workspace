@@ -284,6 +284,12 @@ See [Comments and Documentation][COMMENTS-AND-DOCUMENTATION].
   Additional key documents such as `CONTRIBUTING.md`, `STYLEGUIDE.md`, `SECURITY.md`,
   and `LICENSE` are also maintained at the repository root.
 
+_Note: File and directory names referenced in Markdown should always be formatted using backticks, for example:_
+
+```markdown
+The `.sqlfluff` file defines the project's code formatting rules for SQL files.
+```
+
 ### Markdown References
 
 - **Reference-Style Links:**
@@ -343,8 +349,14 @@ See [Comments and Documentation][COMMENTS-AND-DOCUMENTATION].
 #### Tools
 
 - **cspell:**
-  A spellchecker designed for code and Markdown files.
+  A spellchecker tailored for code and Markdown files.
   It runs as a pre-commit hook and can also be executed via the npm script `npm run spell:check`.
+
+- **markdown-link-check:**
+  Validates hyperlinks within Markdown files and runs as a pre-commit hook.
+
+- **markdownlint:**
+  Enforces consistent style and formatting in Markdown documents. It runs as a pre-commit hook.
 
 #### Consistency and Updates
 
