@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.1 - 2025-03-21
+### 📦 Dependency Updates
+
+* **actions:** bump actions/cache to 4.2.3 ([#1](https://github.com/Jekwwer/pgsql-workspace/issues/1)) ([5be9bd0](https://github.com/Jekwwer/pgsql-workspace/commit/5be9bd005e6d0fbca370dfb3604c33386feeeedd))
+* **npm:** update prettier to 3.5.3 ([#3](https://github.com/Jekwwer/pgsql-workspace/issues/3)) ([d71168d](https://github.com/Jekwwer/pgsql-workspace/commit/d71168d4343628a8321c14d061995154468b5eec))
+* **pip:** bump pre-commit to 4.2.0 ([#2](https://github.com/Jekwwer/pgsql-workspace/issues/2)) ([a14a3db](https://github.com/Jekwwer/pgsql-workspace/commit/a14a3dbe873482306432084127955766c10b950b))
+
+### 📖 Documentation
+
+* **STYLEGUIDE.md:** enhance documentation with additional details ([4f7a59f](https://github.com/Jekwwer/pgsql-workspace/commit/4f7a59f16215a9ee2edca10745f7e189545bf5f1))
+
+### 🛠️ Refactoring
+
+* **pre-commit:** improve clarity of pre-commit autoupdate commit message ([052a207](https://github.com/Jekwwer/pgsql-workspace/commit/052a2070a26ecd74e7366fdf4dedcfb5eb68b90c))
+
 ## 1.0.0 - 2025-03-20
 ### 🚀 New Features
 
