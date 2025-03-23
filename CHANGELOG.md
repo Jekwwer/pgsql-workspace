@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.2 - 2025-03-23
+### 🐞 Bug Fixes
+
+* **editorconfig:** correct comments in each empty filetype section ([93933f4](https://github.com/Jekwwer/pgsql-workspace/commit/93933f480e6dc8b85d28b747a558081fa15242cb))
+
+### 📦 Dependency Updates
+
+* **pre-commit:** bump yamllint to v1.37.0 ([d0dfeee](https://github.com/Jekwwer/pgsql-workspace/commit/d0dfeee0bd9e83e9ee4ae3a67c9c39722e6bebc3))
+
+### 📦 Chores
+
+* **docs:** simplify language in contribution guidelines ([fe689ad](https://github.com/Jekwwer/pgsql-workspace/commit/fe689ad04287ed9e21f21cbc521d5db59a0e2005))
+
+### 🛠️ Refactoring
+
+* **pre-commit:** standardize and simplify hook names ([c6aaa42](https://github.com/Jekwwer/pgsql-workspace/commit/c6aaa42e5289388ffd5f0e1c21a241849f1a55cd))
+
 ## 1.0.1 - 2025-03-21
 ### 📦 Dependency Updates
 
