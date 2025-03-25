@@ -243,7 +243,8 @@ If a file starts with a shebang (e.g., `#!/bin/bash`), place the header comment 
   - **Print Width:** 88 characters
     _(Note: Overrides are applied for Markdown files with a print width of 120, while JSON files have no enforced limit.)_
 - **Note:**
-  Prettier is integrated locally and runs as part of a pre-commit hook to automatically format code before commits.
+  Prettier is integrated as an auto-formatter in VS Code and runs as part of a pre-commit hook
+  to automatically format code before commits.
 
 ### SQLFluff
 
@@ -255,7 +256,8 @@ If a file starts with a shebang (e.g., `#!/bin/bash`), place the header comment 
   - **Print Width:** 120 characters
     _(Note: Overrides are applied for Markdown files with a print width of 120, while JSON files have no enforced limit.)_
 - **Note:**
-  SQLFluff is integrated locally and runs as part of a pre-commit hook to automatically format SQL code before commits.
+  SQLFluff is integrated as an auto-formatter in VS Code and runs as part of a pre-commit hook
+  to automatically format SQL code before commits.
 
 ### Additional Linting and Formatting Tools
 
