@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.3 - 2025-03-25
+### 🐞 Bug Fixes
+
+* **ci:** align release command with package.json scripts ([1ed85af](https://github.com/Jekwwer/pgsql-workspace/commit/1ed85afbe55ab55b4590a25352b4cb96638dc825))
+
+### 📖 Documentation
+
+* **STYLEGUIDE.md:** clarify formatting tools integration information ([2dfb43e](https://github.com/Jekwwer/pgsql-workspace/commit/2dfb43ee90a0452bdd87bbe7cb2d70e0060e941c))
+
 ## 1.0.2 - 2025-03-23
 ### 🐞 Bug Fixes
 

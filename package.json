@@ -1,6 +1,6 @@
 {
   "name": "jekwwer-pgsql-workspace",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A minimal template for PostgreSQL projects with a ready-to-use devcontainer, VS Code settings, and essential repo files.",
   "keywords": [
     "devcontainer",
