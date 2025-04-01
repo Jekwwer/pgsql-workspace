@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.4 - 2025-04-01
+### 📦 Dependency Updates
+
+* **npm:** bump cspell to 8.18.1 ([#4](https://github.com/Jekwwer/pgsql-workspace/issues/4)) ([f4ab0d4](https://github.com/Jekwwer/pgsql-workspace/commit/f4ab0d49042de781afb047d0fe4aaa9d8ae96c41))
+
+### 📖 Documentation
+
+* correct typo in release workflow comment ([5198477](https://github.com/Jekwwer/pgsql-workspace/commit/5198477660a0c4908222905703765928683c9d07))
+
 ## 1.0.3 - 2025-03-25
 ### 🐞 Bug Fixes
 
