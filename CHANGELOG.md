@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 - 2025-05-04
+### 📦 Dependency Updates
+
+* bump actions, pre-commit, and package dependencies to latest versions ([5dea35a](https://github.com/Jekwwer/pgsql-workspace/commit/5dea35ab99a0d759b9e067363a9c4ac31acc75d1)), closes [#5](https://github.com/Jekwwer/pgsql-workspace/issues/5) [#6](https://github.com/Jekwwer/pgsql-workspace/issues/6) [#7](https://github.com/Jekwwer/pgsql-workspace/issues/7)
+
 ## 1.0.4 - 2025-04-01
 ### 📦 Dependency Updates
 
